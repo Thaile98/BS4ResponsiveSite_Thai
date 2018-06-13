@@ -1,0 +1,53 @@
+*{
+
+}
+html,body{
+	height: 100%;
+}
+
+
+img{
+	max-width: 100%;
+}
+#cover{
+	background: #222 url('../image/star.jpg') no-repeat center center;
+	background-size: cover;
+	color: #fff;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+#cover-caption{
+	width: 100%;
+}
+.form{
+	margin: 0 auto;
+	display: flex;
+}
+.form div{
+	margin-right: 5px;
+}
+.carousel-indicators li{
+	width: 10px;
+	height: 10px;
+	border-radius: 100%;
+}
+.section-content{
+	padding: 5rem 0;
+}
+#about{
+	background: url('../image/girlincar.jpg') no-repeat center center;
+	background-size: cover
+}
+.about-text{
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+	padding: 1.875rem
+}
+#footer-main{
+	color: #fff;
+	background-color: 	#222;
+	font-size: 0.8rem;
+	padding: 2.5rem 0;
+}
